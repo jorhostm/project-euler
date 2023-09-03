@@ -2,19 +2,20 @@
 
 void problem12()
 {
-    int tr = 1;
-    int n = 1;
-    int count = 1;
-    while (count <= 500)
+    int tr = 1, n = 1, cnt = 1;
+    while (cnt <= 500)
     {
-        count = 2;
-        n++;
-        tr += n;
+       cnt = 0;
+       tr += ++n;
+       int high = tr;
 
-        for (int i = 1; i < tr; i++)
+        for (int low = 1; low < high; low++)
         {
-            if (tr % i == 0)
-                count++;
+            if (tr % low == 0)
+            {
+                high = tr / low;
+                cnt += 1 + (high != low);
+            }
         }
     }
     printf("Problem 12:\t%d\n",tr);
