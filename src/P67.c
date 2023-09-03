@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <assert.h>
 
 #define n 100
 #define N n*(n+1)/2
@@ -7,8 +8,7 @@ void problem67()
 {
     int vals[N];
     FILE *fp = fopen("data/67.txt", "r");
-    if (!fp)
-        return;
+    assert(fp);
     
     for (int i = 0; i < N; i++)
         fscanf(fp, "%d", vals+i);

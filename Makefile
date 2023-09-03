@@ -1,5 +1,5 @@
 CC = clang
-CFLAGS = -Ofast -g -pipe -flto -Wall -march=native
+CFLAGS = -g -pipe -flto -Wall -march=native
 srcPath = src
 names = $(shell find $(srcPath) -iname "*.c")
 
