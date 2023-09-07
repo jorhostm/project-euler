@@ -14,8 +14,9 @@ void problem21();
 void problem22();
 void problem23();
 void problem24();
+void problem25();
 void problem67();
 
-#define PROBLEM_ALL problem12(); problem13(); problem14(); problem16(); problem17(); problem18(); problem19(); problem20(); problem21(); problem22(); problem23(); problem24(); problem67();
+#define PROBLEM_ALL problem12(); problem13(); problem14(); problem16(); problem17(); problem18(); problem19(); problem20(); problem21(); problem22(); problem23(); problem24(); problem25(); problem67();
 
 #endif
