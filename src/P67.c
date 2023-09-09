@@ -23,5 +23,5 @@ void problem67()
             *pos += pos[row] >= pos[row+1] ? pos[row] : pos[row+1];
         }    
     }
-    printf("Problem 67:\t%d\n", *pos);
+    printf("Problem 67:\t%10d", *pos);
 }

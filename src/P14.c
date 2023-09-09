@@ -34,6 +34,6 @@ void problem14()
         }
     }
 
-    printf("Problem 14:\t%lld\n", max_n);
+    printf("Problem 14:\t%10lld", max_n);
     free(mem);
 }

@@ -29,6 +29,5 @@ void problem24()
     }
     
 
-    printf("Problem 24:\t%s\n", permutation);
-    return;
+    printf("Problem 24:\t%s", permutation);
 }

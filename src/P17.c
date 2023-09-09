@@ -41,5 +41,5 @@ void problem17()
         int n = get_num_length(i);
         sum += n;
     }  
-    printf("Problem 17:\t%d\n", sum);
+    printf("Problem 17:\t%10d", sum);
 }

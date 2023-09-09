@@ -19,7 +19,9 @@ void problem13()
         
     }
     printf("Problem 13:\t");
-    for (size_t i = 0; i < 60; i++)
+    int start = 0;
+    for (; nums[start] == 0; start++);
+    
+    for (size_t i = start; i < start+9; i++)
         printf("%d", nums[i]);
-    printf("\n");
 }

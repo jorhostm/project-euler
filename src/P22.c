@@ -34,6 +34,5 @@ void problem22()
     for (int i = 0; i < N_NAMES; i++)
         sum += (i+1) * value(names[i]);
     
-    printf("Problem 22:\t%d\n", sum);
-    return;
+    printf("Problem 22:\t%10d", sum);
 }

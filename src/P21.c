@@ -23,5 +23,5 @@ void problem21()
     for (int i = 2; i < 10000; i++)
         sum += i*(d(d(i,arr),arr) == i && d(i,arr) != i);
     
-    printf("Problem 21:\t%d\n", sum);
+    printf("Problem 21:\t%10d", sum);
 }

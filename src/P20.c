@@ -33,5 +33,5 @@ void problem20()
             sum += c - '0';
         }
     }
-    printf("Problem 20:\t%d\n", sum);
+    printf("Problem 20:\t%10d", sum);
 }

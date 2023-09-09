@@ -28,5 +28,5 @@ void problem25()
         f2 = f3;
         f3 = tmp;
     }
-    printf("Problem 25:\t%d\n", i);
+    printf("Problem 25:\t%10d", i);
 }

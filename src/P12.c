@@ -18,5 +18,5 @@ void problem12()
             }
         }
     }
-    printf("Problem 12:\t%d\n",tr);
+    printf("Problem 12:\t%10d",tr);
 }

@@ -10,5 +10,5 @@ void problem19()
         count += num[leap][day];
         day = (day + 1 + leap) % 7;
     }
-    printf("Problem 19:\t%d\n", count);
+    printf("Problem 19:\t%10d", count);
 }
