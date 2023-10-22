@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void problem13()
+void problem13(void)
 {
     FILE *fp = fopen("data/13.txt","r");
     char buf[52];
@@ -22,6 +22,6 @@ void problem13()
     int start = 0;
     for (; nums[start] == 0; start++);
     
-    for (size_t i = start; i < start+9; i++)
+    for (int i = start; i < start+9; i++)
         printf("%d", nums[i]);
 }

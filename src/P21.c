@@ -15,7 +15,7 @@ static int d(int n, int *arr)
     return sum;
 }
 
-void problem21()
+void problem21(void)
 {
     int arr[30000] = {0};
     int sum = 0;

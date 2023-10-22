@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void problem26()
+void problem26(void)
 {
     int max = 0, max_d, nums[1000];
     for (int d = 1; d < 1000; d++)

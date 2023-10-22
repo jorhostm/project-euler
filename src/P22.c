@@ -19,7 +19,7 @@ int value(const char *name)
     return sum;
 }
 
-void problem22()
+void problem22(void)
 {
     char input[LINE_SZ];
     FILE *fp = fopen("data/names.txt", "r");

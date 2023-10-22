@@ -1,23 +1,23 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void problem12();
-void problem13();
-void problem14();
-void problem16();
-void problem17();
-void problem18();
-void problem19();
-void problem20();
-void problem21();
-void problem22();
-void problem23();
-void problem24();
-void problem25();
-void problem26();
-void problem67();
+void problem12(void);
+void problem13(void);
+void problem14(void);
+void problem16(void);
+void problem17(void);
+void problem18(void);
+void problem19(void);
+void problem20(void);
+void problem21(void);
+void problem22(void);
+void problem23(void);
+void problem24(void);
+void problem25(void);
+void problem26(void);
+void problem67(void);
 
-void *problems[] = 
+void (*problems[])(void) = 
     {
         problem12,
         problem13,

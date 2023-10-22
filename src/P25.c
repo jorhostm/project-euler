@@ -4,7 +4,7 @@
 #define N 59
 typedef unsigned long long uint64_t;
 
-void problem25()
+void problem25(void)
 {
     uint64_t a[N] = {0}, b[N] = {0}, c[N] = {0};
     uint64_t *f1 = a, *f2 = b, *f3 = c;

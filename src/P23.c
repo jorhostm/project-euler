@@ -16,7 +16,7 @@ int is_abundant(int n)
     return sum > n;
 }
 
-void problem23()
+void problem23(void)
 {
     int abundants[N_MAX] = {0};
     char subtracted[N_MAX] = {0};

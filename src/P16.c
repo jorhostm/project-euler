@@ -4,7 +4,7 @@
 #define BASE 1000000000ULL
 #define SZ 34
 
-void problem16()
+void problem16(void)
 {
     uint64_t num[SZ] = {0};
     num[0] = 1;

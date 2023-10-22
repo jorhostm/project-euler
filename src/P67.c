@@ -4,7 +4,7 @@
 #define n 100
 #define N n*(n+1)/2
 
-void problem67()
+void problem67(void)
 {
     int vals[N];
     FILE *fp = fopen("data/67.txt", "r");

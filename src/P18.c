@@ -3,7 +3,7 @@
 #define n 15
 #define N n*(n+1)/2
 
-void problem18()
+void problem18(void)
 {
     int vals[N];
     FILE *fp = fopen("data/18.txt", "r");

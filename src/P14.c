@@ -17,7 +17,7 @@ static long long C(long long n, int *mem)
         return mem[n];   
 }
 
-void problem14()
+void problem14(void)
 {
     int *mem = (int *) calloc(3000500, sizeof(int));
     mem[1] = 1;

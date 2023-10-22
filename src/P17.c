@@ -33,7 +33,7 @@ static int get_num_length(int n)
     return 0;
 }
 
-void problem17()
+void problem17(void)
 {
     int sum = 0;
     for (int i = 0; i <= 1000; i++)

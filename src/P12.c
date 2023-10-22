@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void problem12()
+void problem12(void)
 {
     int tr = 1, n = 1, cnt = 1;
     while (cnt <= 500)

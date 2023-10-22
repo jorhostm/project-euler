@@ -3,7 +3,7 @@
 #define N_SYM 10
 #define N_POS 1000000 - 1
 
-void problem24()
+void problem24(void)
 {
     int symbols[N_SYM];
     for (int i = 0; i < N_SYM; i++)

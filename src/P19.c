@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void problem19()
+void problem19(void)
 {
     int num[2][7] = {{2,2,2,1,3,1,1},{3,2,1,2,2,1,1}};
     int day = 0, count = 0;
