@@ -10,7 +10,7 @@ run: main
 	./$<
 
 debug: main.c main.h $(names)
-	$(CC) -Og -g $(CFLAGS) main.c $(names) -o main
+	$(CC) -g $(CFLAGS) main.c $(names) -o main
 
 %.o : %.c
 	$(CC) $(CFLAGS) -c $< -o $@
