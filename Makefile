@@ -16,6 +16,6 @@ debug: main.c main.h $(names)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf *.o 
+	rm -rf main
 
-.phony: clean
+.phony: clean run debug
