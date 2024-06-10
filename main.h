@@ -22,6 +22,7 @@ void problem30(void);
 void problem31(void);
 void problem32(void);
 void problem33(void);
+void problem34(void);
 void problem67(void);
 
 void (*problems[])(void) = 
@@ -47,6 +48,7 @@ void (*problems[])(void) =
         problem31,
         problem32,
         problem33,
+        problem34,
         problem67
     };
 #endif
