@@ -2,7 +2,7 @@
 #include <string.h>
 
 #define COEFF_LIMIT 1000
-#define SIEVE_SZ 12000
+#define SIEVE_SZ 12990
 #define PRIMES_SZ SIEVE_SZ/2
 
 void problem27(void)
